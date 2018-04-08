@@ -134,14 +134,14 @@ function updateStarRating() {
 
 function showModal() {
   const stars = document.querySelector(".stars");
-  const time = document.querySelector(".displayTime").textContent;
+  const time = document.querySelector(".timer").textContent;
   const button = document.querySelector("button");
   
   stars.classList.add("modal-stars");
   document.querySelector(".invisible").classList.remove("invisible");
   document.getElementById("moves-modal").textContent =
     "Moves: " + moves.toString();
-  document.getElementById("displayTime-modal").textContent =
+  document.getElementById("timer-modal").textContent =
     "Time: " + time;
   document.querySelector(".modal").insertBefore(stars, button);
 }
@@ -162,7 +162,7 @@ document.querySelector(".deck").addEventListener("click", function(event) {
 // INITIALIZE TIMER
       
     if (i <= 0) {
-      timer(document.querySelector(".displayTime"));
+      timer(document.querySelector(".timer"));
       i = 1;
     }
     if (openedCards.length <= 1) {
