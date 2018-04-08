@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+    <meta charset="utf-8">
+    <title>Matching Game</title>
+    <meta name="description" content="">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<div class="invisible">
+  <div class="modal">
+    <h1>Congratulations!</h1>
+    <h2>Your stats:</h2>
+    <p id="moves-modal"></p>
+    <p id="displayTime-modal"></p>
+    <button type="button" name="button">Play again?</button>
+  </div>
+</div>
+
+<div class="container">
+    
+  <header>
+      <h1>M<span class="title-a">a</span>tching G<span class="title-a">a</span>me</h1>
+  </header>
+
+  <section class="score-panel">
+    <ul class="stars">
+      <li><i class="fa fa-star"></i></li>
+      <li><i class="fa fa-star"></i></li>
+      <li><i class="fa fa-star"></i></li>
+    </ul>
+
+    <span class="moves">0</span>
+    <span class="moves-text">Move(s)</span>
+    <span class="displayTime">00:00</span>
+
+    <div class="restart">
+      <i class="fa fa-repeat"></i>
+    </div>
+  </section>
+</div>
+    <script src="js/app.js"></script>
+</body>
+</html>

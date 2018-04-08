@@ -1,0 +1,189 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff url("../img/geometry2.png"); /* Background pattern from Subtle Patterns */
+  font-family: "Coda", cursive;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  padding: 30px;
+  text-transform: uppercase;
+}
+
+.title-a {
+    color: #02ccba;
+}
+
+h2 {
+  margin: 0;
+  font-weight: 300;
+}
+
+/*
+ * DECK
+ */
+
+.deck {
+  width: 660px;
+  min-height: 680px;
+  background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 3em;
+}
+
+.deck .card {
+  height: 125px;
+  width: 125px;
+  background: #2e3d49;
+  font-size: 0;
+  color: #ffffff;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+}
+
+.deck .card.open {
+  transition: 0.7s;
+  background: #02b3e4;
+  cursor: default;
+}
+
+.deck .card.show {
+  font-size: 33px;
+}
+
+.deck .card.match {
+  cursor: default;
+  background: #02ccba;
+  font-size: 33px;
+  transition: 0.7s;
+}
+
+/*
+ * SCORE PANEL
+ */
+
+.score-panel {
+  text-align: left;
+  width: 345px;
+  margin-bottom: 10px;
+  
+}
+
+.score-panel .moves {
+    margin-left: 50px;
+}
+
+.score-panel .moves-text {
+    margin-left: 3px;
+}
+
+.score-panel .stars {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  margin: 0 5px 0 0;
+}
+
+.score-panel .stars li {
+  list-style: none;
+  display: inline-block;
+}
+
+.score-panel .displayTime {
+  padding-left: 30px;
+}
+
+.score-panel .restart {
+  float: right;
+  cursor: pointer;
+}
+
+/*
+ * MODAL
+ */
+
+.invisible {
+  display: none;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #fff url("../img/geometry2.png");
+  color: #06ADDB;
+}
+
+.modal p {
+  margin-bottom: 0;
+}
+
+.modal h1 {
+ color: #aa7ecd;
+}
+
+.modal button {
+  margin-top: 24px;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #d3d3d3;
+  text-transform: uppercase;
+  border: none;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 5px #1f253d;
+}
+
+.modal button:active {
+  box-shadow: 0 5px #1f253d;
+  transform: translateY(4px);
+}
+}
+
+.modal-stars {
+  list-style: none;
+  padding: 0;
+}
+
+.modal-stars li {
+  display: inline-block;
+}
