@@ -6,21 +6,21 @@ The Memory Game Project is all about demonstrating my mastery of HTML, CSS, and 
 
 ## How The Game Is Played
 
-1 - Flip over two hidden cards.
-2 - If they match, keep flipping. 
-3 - If not, remember the icons and try to find their twin.
+1. Flip over two hidden cards.
+2. If they match, keep flipping. 
+3. If not, remember the icons and try to find their twin.
 
 ## What The Player Is Expect From The Game
 
-A - Be focused - the less moves you make, the less stars you loose.
-B - Be happy - it's just a game, practice makes perfect.
-C - Be proud - if you finish the game with three stars, not everyone can do it.
+- Be focused - the less moves you make, the less stars you loose.
+- Be happy - it's just a game, practice makes perfect.
+- Be proud - if you finish the game with three stars, not everyone can do it.
 
 ## Game Dependecies
 
-★★★   < 15 MOVES
-★★    15 - 20 MOVES 
-★     + 20
+- ★★★   < 15 MOVES
+- ★★    15 - 20 MOVES 
+- ★     + 20
 
 ## Hint
 
