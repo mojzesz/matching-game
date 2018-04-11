@@ -1,6 +1,6 @@
 ## ↘︎
 
-![SCREENSHOT](jpg/screenshot.png)
+![SCREENSHOT](img/screenshot.png)
 
 The Memory Game Project is all about demonstrating my mastery of HTML, CSS, and JavaScript. It's a browser-based card matching game (also known as Concentration). But this isn’t just *any* memory game! It’s a shnazzy, well-designed, feature-packed memory game!
 
