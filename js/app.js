@@ -46,7 +46,6 @@ function createCards() {
 
     const container = document.querySelector(".container");
     const ul = document.createElement("ul");
-    let li;
 
     ul.setAttribute("class", "deck");
     for (card of cards) {
