@@ -24,7 +24,7 @@ The Memory Game Project is all about demonstrating my mastery of HTML, CSS, and 
 
 ## Hint
 
-Haste makes waste.
+Be quick, but don't hurry.
 
 ## Resources
 
