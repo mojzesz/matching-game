@@ -19,8 +19,8 @@ The Memory Game Project is all about demonstrating my mastery of HTML, CSS, and 
 ## Game Dependecies
 
 - ★★★ --- < 15 MOVES
-- ★★ --- 15 - 20 MOVES 
-- ★ --- + 20
+- ★★ --- 15-20 MOVES 
+- ★ --- > 20 MOVES
 
 ## Hint
 
